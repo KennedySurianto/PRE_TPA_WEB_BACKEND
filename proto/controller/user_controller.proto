@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "github.com/KennedySurianto/PRE_TPA_WEB/proto/controller";
+
+service UserController {
+    rpc CreateUser(UserRequest) returns (UserResponse);
+    rpc GetAllUsers() returns (stream UserResponse);
+    rpc GetUser(UserRequest) returns (UserResponse);
+    rpc UpdateUser(UserRequest) returns (UserResponse);
+    rpc DeleteUser(UserRequest) returns (UserResponse);
+}
