@@ -1,4 +1,4 @@
-GO_MODULE := github.com/KennedySurianto/pre_tpa_web/
+GO_MODULE := github.com/KennedySurianto/PRE_TPA_WEB_BACKEND
 
 .PHONY:protoc-go
 protoc-go:

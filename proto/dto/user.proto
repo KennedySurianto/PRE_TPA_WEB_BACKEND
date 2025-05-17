@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/KennedySurianto/pre_tpa_web/dto"
+option go_package = "github.com/KennedySurianto/PRE_TPA_WEB_BACKEND/dto"
 
 // enum Role {
 //     GUEST = 1;
